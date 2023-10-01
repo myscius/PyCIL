@@ -24,8 +24,9 @@ def _train(args):
     if not os.path.exists(logs_name):
         os.makedirs(logs_name)
 
-    logfilename = "logs/{}/{}_{}_{}_{}_{}_{}_{}".format(
+    logfilename = "logs/{}/{}_{}_{}_{}_{}_{}_{}_{}".format(
         args["model_name"],
+        args["tip"],
         args["prefix"],
         args["seed"],
         args["model_name"],
