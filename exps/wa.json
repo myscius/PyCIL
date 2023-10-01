@@ -10,5 +10,6 @@
     "model_name": "wa",
     "convnet_type": "resnet32",
     "device": ["0","1","2","3"],
-    "seed": [1993]
+    "seed": [1993],
+    "tip": "wa"
 }
